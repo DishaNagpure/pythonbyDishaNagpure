@@ -1,10 +1,10 @@
-#print("Hello world")
-#print(3+5)
-#print("How are you?")
-#print("Shut up!")
-#import cv2
-#import math
-#print(math.gcd(12,69))
+print("Hello world")
+print(3+5)
+print("How are you?")
+print("Shut up!")
+import cv2
+import math
+print(math.gcd(12,69))
 a=8
 b=6
 c=2
@@ -43,3 +43,4 @@ print(len(name))
 var=name.lower()
 var=name.upper()
 print(var)
+print(name[0:2])
