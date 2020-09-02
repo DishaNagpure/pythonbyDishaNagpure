@@ -57,7 +57,63 @@ name1="Disha"
 name2="Deepali"
 temp=f"{name1} is very intelligent as compared to {name2}."
 print(temp)
-yo = [61,22,5,8,9,62]
-var = type(yo)
-var = yo[0:6]
+'''
+Python Collections:
+1. List
+2. Tuple
+3. Set
+4. Dictionary
+'''
+
+# In front of (.) it will come something {a=(1,2,3)} a
+# .remove(str/int/float) means it will remove particular thing in the bracket
+# .clear()
+# .append(str/int/float) means it will add (str/int/float) at last
+# .discard(str/int/float) means it will remove something if presant if not presant it will not show error
+# .pop() means it will remove (str/int/float) presant at last
+# .insert(2,50) means in this 2 indicates position/place and it will be changed by 50
+# .add(str/int/float) similar to append
+
+# 1.List
+lst= [61,22,5,8,9,62]
+var = type(lst)
+var = lst[0:6]
+lst[2]=8
+var=lst[2]
+lst.append(900)
+lst.append(0)
+var=lst
+var=len(lst)
+lst.insert(2,50)
+lst.remove(8)
+lst.pop()
+var=lst
+var=len(lst)
+lst.remove(22)
+lst.remove(61)
+lst.remove(8)
+lst.remove(9)
+lst.remove(62)
+var=len(lst)
+var=lst
 print(var)
+
+# 2.Tuple
+a=("Disha", "Deepali", "Devendra")
+var=a
+print(type(a))
+a=list(a)
+var=a
+a[1]="Gudiya"
+var.clear()
+print(var)
+
+# 3. Sets
+s1 = {1,2,3,2,3,6,5,2,1}
+s1.add(12)
+s1.update([13,40,50,60])
+s1.discard(8)
+print(s1)
+
+
+
