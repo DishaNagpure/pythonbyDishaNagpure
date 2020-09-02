@@ -113,6 +113,7 @@ s1 = {1,2,3,2,3,6,5,2,1}
 s1.add(12)
 s1.update([13,40,50,60])
 s1.discard(8)
+s1.clear()
 print(s1)
 
 
