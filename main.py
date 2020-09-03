@@ -65,14 +65,17 @@ Python Collections:
 4. Dictionary
 '''
 
-# In front of (.) it will come something {a=(1,2,3)} a
-# .remove(str/int/float) means it will remove particular thing in the bracket
-# .clear()
+# In front of (.) it will come something {a=(1,2,3)} a.
+# .remove(str/int/float) means it will remove particular thing
+#         in the bracket.
+# .clear() means everything will be cleared/deleted .
 # .append(str/int/float) means it will add (str/int/float) at last
-# .discard(str/int/float) means it will remove something if presant if not presant it will not show error
-# .pop() means it will remove (str/int/float) presant at last
-# .insert(2,50) means in this 2 indicates position/place and it will be changed by 50
-# .add(str/int/float) similar to append
+# .discard(str/int/float) means it will remove something .
+#         if presant if not presant it will not show error
+# .pop() means it will remove (str/int/float) presant at last.
+# .insert(2,50) means in this 2 indicates position/place and 
+#              it will be changed by 50.
+# .add(str/int/float) similar to append.
 
 # 1.List
 lst= [61,22,5,8,9,62]
@@ -115,6 +118,33 @@ s1.update([13,40,50,60])
 s1.discard(8)
 s1.clear()
 print(s1)
+
+# 4. Dictionary
+DishaDict = {
+    "Name" : "Disha",
+    "Class" : "10th pass", 
+    "Favourite Subject" : "Sanskrit",
+    "Percentage" : "90.8%",
+    "Teacher" : "Pushpa"
+}
+print(DishaDict)
+print(DishaDict["Percentage"])
+DishaDict.pop("Favourite Subject")
+print(DishaDict)
+
+#age=16
+age=input("Enter Your Age")
+print(age)
+
+if(age>18):
+    print("You can drive a vehicle")
+
+elif(age==18):
+    print("You are an awesome teen")  
+
+else:
+    print("You cannot drive a vehicle")    
+
 
 
 
