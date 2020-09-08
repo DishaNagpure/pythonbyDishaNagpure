@@ -131,19 +131,23 @@ print(DishaDict)
 print(DishaDict["Percentage"])
 DishaDict.pop("Favourite Subject")
 print(DishaDict)
-
+'''
 #age=16
-age=input("Enter Your Age")
-print(age)
+#age=input("Enter Your Age")
+#print(age)
 
-if(age>18):
+#if(age>18):
     print("You can drive a vehicle")
 
-elif(age==18):
+#elif(age==18):
     print("You are an awesome teen")  
 
-else:
+#else:
     print("You cannot drive a vehicle")    
+'''
+
+DishaDict.clear()
+print(DishaDict)
 
 
 
