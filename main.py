@@ -131,23 +131,42 @@ print(DishaDict)
 print(DishaDict["Percentage"])
 DishaDict.pop("Favourite Subject")
 print(DishaDict)
+
 '''
 #age=16
-#age=input("Enter Your Age")
-#print(age)
+age=input("Enter Your Age")
+age=int(age)
+print(age)
 
-#if(age>18):
+if(age>18):
     print("You can drive a vehicle")
 
-#elif(age==18):
+elif(age==18):
     print("You are an awesome teen")  
 
-#else:
+else:
     print("You cannot drive a vehicle")    
 '''
+#DishaDict.clear()
+#print(DishaDict)
 
-DishaDict.clear()
-print(DishaDict)
+# Loop:
+# In order to print numbers between 1 to 101
+
+for i in range(0, 101):
+    print(i)
+i = 0    
+while(i<101):
+    i=i+1
+    if i==9:
+       # break
+       continue
+    print(i+1)
+    
+
+
+
+
 
 
 
