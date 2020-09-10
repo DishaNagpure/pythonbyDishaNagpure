@@ -152,17 +152,35 @@ else:
 
 # Loop:
 # In order to print numbers between 1 to 101
-
 for i in range(0, 101):
     print(i)
 i = 0    
 while(i<101):
     i=i+1
     if i==9:
-       # break
-       continue
+       break
+       #continue
     print(i+1)
-    
+
+#Functions:
+def greet():
+    print("Good evening dear.")
+    print("Thank you.")
+greet()    
+
+def sum(a, b):
+    c=a+b
+    return c
+d=sum(20, 30)
+print(d)
+
+class Employee:
+    def _init_(self,gname,gage):
+        self.name = gname
+        self.age = gage
+disha = Employee("Disha",16)
+print(disha.name)
+print(disha.age)
 
 
 
