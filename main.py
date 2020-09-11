@@ -23,15 +23,15 @@ e="12"
 e=int(12)
 e=float(e)
 print(e-2)
-f=Disha
-print(type(f))
+#f=disha
+#print(type(f))
 r=11
 r=str(r)
 r=float(r)
-print(f+1)
+print(r+1)
 g=1.0
- g=str(g)
-g=int(g)
+#g=str(g)
+#g=int(g)
 print(g+1)
 name="Disha"
 print(name[0])
