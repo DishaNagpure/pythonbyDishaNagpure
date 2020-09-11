@@ -23,16 +23,15 @@ e="12"
 e=int(12)
 e=float(e)
 print(e-2)
-#f=Disha
-#print(type(f))
-#e=float(e)
-f=11
-f=str(f)
-f=float(f)
+f=Disha
+print(type(f))
+r=11
+r=str(r)
+r=float(r)
 print(f+1)
 g=1.0
-#g=str(g)
-#g=int(g)
+ g=str(g)
+g=int(g)
 print(g+1)
 name="Disha"
 print(name[0])
@@ -57,6 +56,7 @@ name1="Disha"
 name2="Deepali"
 temp=f"{name1} is very intelligent as compared to {name2}."
 print(temp)
+
 '''
 Python Collections:
 1. List
@@ -69,13 +69,15 @@ Python Collections:
 # .remove(str/int/float) means it will remove particular thing
 #         in the bracket.
 # .clear() means everything will be cleared/deleted .
-# .append(str/int/float) means it will add (str/int/float) at last
+# .append(str/int/float) means it will add only one (str/int/float) at last
 # .discard(str/int/float) means it will remove something .
 #         if presant if not presant it will not show error
 # .pop() means it will remove (str/int/float) presant at last.
 # .insert(2,50) means in this 2 indicates position/place and 
 #              it will be changed by 50.
 # .add(str/int/float) similar to append.
+# .update([str/int/float]) means it will add any (str/int/float)
+#        more than one (str/int/float).
 
 # 1.List
 lst= [61,22,5,8,9,62]
@@ -175,12 +177,12 @@ d=sum(20, 30)
 print(d)
 
 class Employee:
-    def _init_(self,gname,gage):
-        self.name = gname
-        self.age = gage
-disha = Employee("Disha",16)
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+disha = Employee("Disha", 16)
 print(disha.name)
-print(disha.age)
+print(disha.salary)
 
 
 
